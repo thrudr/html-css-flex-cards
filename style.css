@@ -9,13 +9,37 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 .text-center {
     text-align: center;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    margin: 20px;
+    height: 80px;
+    justify-content: space-between;
     flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.flex-item {
+    display: flex;
+    color: white;
     background-color: rgb(11, 11, 88);
+}
+
+img {
+    height: 80px;
+}
+
+.card {
+    margin: 10px;
+    align-items: center;
+    
 }
